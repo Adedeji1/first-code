@@ -1,0 +1,59 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background: url(https://th.bing.com/th/id/OIP.ikOqwy2jSZA-rM5UXiQhAQHaEK?pid=ImgDet&rs=1) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: sans-serif;
+}
+form{
+  text-align: center;
+  border-radius: 100px;
+
+}
+.background{
+  width: 350px;
+  margin: 8px auto;
+  padding: 8px;
+  background-color: rgba(0,0,0,0.23);
+  border-radius: 20px;
+  box-shadow: 0 0 0 17px rgba(25, 20, 25,);
+}
+
+.reg{
+  text-align: center;
+  padding-top: 40px;
+
+}
+.reg h1{
+  color: white;
+  font-family: sans-serif;
+
+}
+
+form input, button{
+  width: 200px;
+  height: 20px;
+  border: none;
+  margin-bottom: 30px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  font-size: 15px;
+  outline: none;
+
+}
+form button{
+  background-color: #337af4;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 15px;
+
+}
+form button:hover{
+  box-shadow: 2px 2px 5px #555;
+  background-color: #b511f6;
+  color: white;
+}
